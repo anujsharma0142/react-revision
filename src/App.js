@@ -1,5 +1,15 @@
 import './App.css';
-import { Example } from './components/handleArrayWithList/Example';
+import ForwardRefExample from './components/forwardRef/ForwardRefExample';
+// import UseRefExample from './components/useRef/UseRefExample';
+// import UseMemoExample from './components/useMemo/UseMemoExample';
+// import HomeContainer from './components/containers/HomeContainer';
+
+// import UserOne from './components/reduxPractice/UserOne'
+// import ParentFile from './components/sendDataChildToParent/ParentFile';
+// import ReUseComponent from './components/reUseComponentExample/ReUseComponent';
+
+// import NestedListExample from './components/nestedList/NestedListExample';
+// import { Example } from './components/handleArrayWithList/Example';
 // import ColorCss from './components/cssFolder/ColorCss';
 // import Form from './components/basicForm/HtmlForm';
 // import Members from './components/childComponent/Members';
@@ -36,9 +46,17 @@ function App() {
 
       {/* <ColorCss/> */}
 
-      <Example/>
+      {/* <Example/> */}
+      {/* <NestedListExample/> */}
       
-      
+      {/* <ReUseComponent/> */}
+      {/* <ParentFile /> */}
+      {/* <UserOne data={{name:"anujsharma", age:"26" }}/> */}
+      {/* <HomeContainer/> */}
+      {/* <UseMemoExample/> */}
+      {/* <UseRefExample/> */}
+      <ForwardRefExample/>
+    
     </div>
   );
 }
